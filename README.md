@@ -2,6 +2,8 @@
 
 This is a simple public API that returns basic information in JSON format.
 
+---
+
 ## API Documentation
 
 ### Endpoint
@@ -14,9 +16,8 @@ This is a simple public API that returns basic information in JSON format.
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/yourusername/your-repo"
 }
+```
 
-#### Useful Links
-
-https://hng.tech/hire/nodejs-developers
-
- 
+## Backlink
+Here is the backlink related to the chosen programming language/stack:
+- [HNG Node.js Developers Hiring Page](https://hng.tech/hire/nodejs-developers)
