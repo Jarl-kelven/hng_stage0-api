@@ -14,9 +14,9 @@ app.use(cors());
 // API Endpoint
 app.get('/', (req, res) => {
   const response = {
-    email: process.env.MY_EMAIL, // Replace with your HNG Slack email
+    email: process.env.MY_EMAIL,
     current_datetime: new Date().toISOString(), // Dynamically generated ISO 8601 timestamp
-    github_url: process.env.MY_GITHUB, // Replace with your GitHub repo URL
+    github_url: process.env.MY_GITHUB, 
   };
   res.status(200).json(response);
 });
